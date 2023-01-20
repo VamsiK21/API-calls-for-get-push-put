@@ -92,7 +92,7 @@ app.post("/books/", async (request, response) => {
 //Update Book API
 app.put("/books/:bookId", async (request, response) => {
   const { bookId } = request.params;
-  const bookDetails = request.body;
+  
 
   const bookDetails = request.body;
   const {
